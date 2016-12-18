@@ -1,0 +1,23 @@
+{
+  "name": "finance-tracker",
+  "scripts": {
+  },
+  "env": {
+    "DATABASE_URL": "postgres://okgiceffvyuzli:95642e208141d58a58d73eae5b54d65fe81f3dfa511191ce6f19cbbb50ea3c43@ec2-184-72-252-69.compute-1.amazonaws.com:5432/d69pbs9q764176",
+    "LANG": "en_US.UTF-8",
+    "RACK_ENV": "production",
+    "RAILS_ENV": "production",
+    "RAILS_SERVE_STATIC_FILES": "enabled",
+    "SECRET_KEY_BASE": "350efbcd3c3e139105d9ce5f3de8449c7a4304c7478261c9e2a5cad288db2769d25445b030159faaf88c0ea4d99d4ef91dd8f8de46ea0d7b5244b9a79189a2d3"
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/ruby"
+    }
+  ]
+}
